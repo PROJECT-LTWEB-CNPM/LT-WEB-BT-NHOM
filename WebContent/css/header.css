@@ -1,0 +1,28 @@
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	box-shadow: 0 4px 12px 0 rgb(0 0 0/ 7%), 0 2px 4px rgb(0 0 0/ 5%);
+	background-color: #fff;
+	min-height: 6rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 1;
+}
+
+.nav-list {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 3rem;
+}
+
+.nav-item>.nav-link {
+	font-weight: 500 !important;
+}
+
+.active .nav-link, .nav-link:hover {
+	color: var(--primary-color) !important;
+}
