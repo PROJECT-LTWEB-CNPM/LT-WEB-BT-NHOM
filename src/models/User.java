@@ -37,10 +37,16 @@ public class User {
 		this.urlInfo = urlInfo;
 	}
 
-	public User(String name, String email, String password) {
-		this.name = name;
+//	public User(String name, String email, String password) {
+//		this.name = name;
+//		this.email = email;
+//		this.password = password;
+//	}
+	
+	public User(String firstName, String lastName, String email) {
+		this.firstName = firstName;
+		this.lastName = lastName;
 		this.email = email;
-		this.password = password;
 	}
 
 	public String getName() {
