@@ -30,9 +30,11 @@ public class LabData {
 				"lab2.png");
 		Lab lab12_2 = new Lab("bài thực hành 12.2", "Create a User Admin application", "lab-8/lab8-2/index.jsp",
 				"lab2.png");
+		Lab lab14_1 = new Lab("bài thực hành 14.1", "Send email from a Servlet", "lab-9/index.jsp",
+				"lab2.png");
 		Lab finalProject = new Lab("Dự Án Cuối Kỳ", "Phát triển website kinh doanh đồ áo",
 				"https://group5-ltweb-ecom.herokuapp.com/", "final.png");
 		return Arrays.asList(new Lab[] { lab1, lab2, lab5_1, lab5_2, lab6_1, lab6_2, lab7_1, lab7_2, lab7_3, lab8,
-				lab9_1, lab9_2, lab12_1, lab12_2, finalProject });
+				lab9_1, lab9_2, lab12_1, lab12_2, lab14_1, finalProject });
 	}
 }

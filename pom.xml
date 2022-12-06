@@ -37,7 +37,12 @@
 			<version>2.3.3</version>
 			<scope>provided</scope>
 		</dependency>
-
+		<!-- Java mail-->
+		<dependency>
+			<groupId>com.sun.mail</groupId>
+			<artifactId>javax.mail</artifactId>
+			<version>1.6.2</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
