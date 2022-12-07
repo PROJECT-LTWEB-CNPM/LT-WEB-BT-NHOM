@@ -92,7 +92,7 @@ th, td {
 
 </table>
 
-<p><a href="./user">Refresh</a></p>
+<p><a href="userAdmin">Refresh</a></p>
 
 </body>
 </html>

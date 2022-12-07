@@ -1,4 +1,4 @@
-package controller.lab13.lab132;
+package controllers.lab13.lab132;
 
 
 import java.io.IOException;
@@ -14,7 +14,7 @@ import javax.servlet.http.HttpSession;
 import data.UserDB;
 import business.User;
 
-@WebServlet("/user")
+@WebServlet("/lab-13/lab13-2/userAdmin")
 public class UsersServlet extends HttpServlet {
 
     @Override
@@ -24,7 +24,7 @@ public class UsersServlet extends HttpServlet {
         
         HttpSession session = request.getSession();
 
-        String url = "/index.jsp";
+        String url = "/lab-13/lab13-2/index.jsp";
         
         // get current action
         String action = request.getParameter("action");
@@ -42,7 +42,7 @@ public class UsersServlet extends HttpServlet {
             String emailAddress = request.getParameter("email");
             User user = UserDB.selectUser(emailAddress);
             session.setAttribute("user", user);
-            url = "/user.jsp";
+            url = "/lab-13/lab13-2/user.jsp";
         }
         else if (action.equals("update_user")) {
             // get parameters from the request
