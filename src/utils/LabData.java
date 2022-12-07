@@ -30,6 +30,7 @@ public class LabData {
 				"lab2.png");
 		Lab lab12_2 = new Lab("bÃ i thá»±c hÃ nh 12.2", "Create a User Admin application", "lab-8/lab8-2/index.jsp",
 				"lab2.png");
+		Lab lab13_1 = new Lab("Bài tập 13.1","JPA connection", "lab-13/lab13-1/index.jsp", "lab5.png");
 		Lab lab13_2 = new Lab("bÃ i thá»±c hÃ nh 13.2", "Update and Delete User", "lab-13/lab13-2/index.jsp",
 				"lab2.png");
 		Lab lab14_1 = new Lab("bÃ i thá»±c hÃ nh 14.1", "Send email from a Servlet", "lab-9/index.jsp",
@@ -37,6 +38,6 @@ public class LabData {
 		Lab finalProject = new Lab("Dá»± Ã�n Cuá»‘i Ká»³", "PhÃ¡t triá»ƒn website kinh doanh Ä‘á»“ Ã¡o",
 				"https://group5-ltweb-ecom.herokuapp.com/", "final.png");
 		return Arrays.asList(new Lab[] { lab1, lab2, lab5_1, lab5_2, lab6_1, lab6_2, lab7_1, lab7_2, lab7_3, lab8,
-				lab9_1, lab9_2, lab12_1, lab12_2,lab13_2, lab14_1, finalProject });
+				lab9_1, lab9_2, lab12_1, lab12_2, lab13_1, lab13_2, lab14_1, finalProject });
 	}
 }
