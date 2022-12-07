@@ -46,7 +46,7 @@
 <%
 List<Lab> labs = labData.getLabs();
 List<String> labNames = Arrays.asList("lab1", "lab2", "lab3", "lab3", "lab3", "lab3", "lab3", "lab3", "lab3", "lab3",
-		"lab3", "lab3", "lab3", "lab3", "lab3","final");
+		"lab3", "lab3", "lab3", "lab3", "lab3","lab3","final");
 String baseUrl = "https://raw.githubusercontent.com/DODUONGTHAITUAN/images/main/";
 %>	
 

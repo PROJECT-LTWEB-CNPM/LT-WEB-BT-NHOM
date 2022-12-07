@@ -3,7 +3,7 @@
 	<persistence-unit name="LT-WEB-BT-NHOM" transaction-type="RESOURCE_LOCAL">
 		<class>business.User</class>
 		<properties>
-			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/murach_jpa"/>
+			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/murach"/>
 			<property name="javax.persistence.jdbc.user" value="root"/>
 			<property name="javax.persistence.jdbc.password" value="123456"/>
 			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
